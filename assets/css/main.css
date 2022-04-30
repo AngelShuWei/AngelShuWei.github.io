@@ -104,7 +104,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		/* background: #312450; */
+		background: #E6F0FA;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -195,6 +196,8 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.75em;
+		/* max-width: 60%; */
+		color: black;
 	}
 
 		h1.major {
@@ -3249,14 +3252,18 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-color: #5e42a6;
+			/* background-color: #E6F0FA; */
 		}
 
 		.wrapper.style1-alt {
 			background-color: #493382;
+			/* background-color: #E6F0FA; */
 		}
 
 		.wrapper.style2 {
 			background-color: #5052b5;
+			/* background-color: lavender; */
+			/*blu3*/
 		}
 
 		.wrapper.style2-alt {
@@ -3534,7 +3541,7 @@ input, select, textarea {
 		/* position: relative; */
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		background: #312450;
-		/* background: black; */
+		/* background: lavender; */
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3553,7 +3560,8 @@ input, select, textarea {
 		}
 
 		.linked-in-photo-img {
-			width: 170px;
+			max-width: 170px;
+			max-height: 170px;
 			border-radius: 100px;
 		}
 
@@ -3901,15 +3909,39 @@ input, select, textarea {
 		position: relative;
 	}
 
-	.angel-bg {
+	.portfolio-bg {
 		position: absolute;
 		max-width: 100vw;
 		width: 100%;
 		height: auto;
 	}
 
-		#intro p {
+		/* #intro p {
 			font-size: 1.25em;
+		} */
+
+		.inner#intro {
+			display: flex;
+			justify-content: space-between;
+			/* color: #515C6A; */
+			color: white;
+		}
+
+		.about-me {
+			background-color: rgba(0, 0, 0, 0.65);
+			padding: 15px;
+			border-radius: 8px;
+			width: 400px;
+			/* text-align: center; */
+		}
+
+		.about-me > h2 {
+			color: black;
+		}
+
+		.about-me > p {
+			font-size: 16px;
+			color: white;
 		}
 
 			@media screen and (max-width: 980px) {
