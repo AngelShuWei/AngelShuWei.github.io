@@ -2544,6 +2544,7 @@ input, select, textarea {
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
+			padding: 5px;
 		}
 
 			.icon.major:before {
